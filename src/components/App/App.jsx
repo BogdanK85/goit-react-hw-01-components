@@ -10,7 +10,7 @@ import { TransactionHistory } from '../TransactionHistory/TransactionHistory';
 export const App = () => {
   return (
     <main className='main'>
-      <h1 className='h1'>React homework 1</h1>
+      <h1 hidden className='h1'>React homework 1</h1>
 
       <section className='section-profile'>
         <Profile

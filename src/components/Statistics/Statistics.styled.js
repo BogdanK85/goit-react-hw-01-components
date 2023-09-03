@@ -23,11 +23,12 @@ export const StatisticsList = styled.ul`
     justify-content: space-evenly;
     margin: 0;
     padding: 0;
-    background-color: rgb(177, 217, 217);
+    /* background-color: rgb(177, 217, 217); */
 `
 
 export const StatisticsListItem = styled.li`
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     padding: 25px 0;
