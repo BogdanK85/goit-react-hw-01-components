@@ -1,17 +1,6 @@
 import PropTypes from 'prop-types';
 import { StatisticsLabel, StatisticsList, StatisticsListItem, StatisticsPercentage, StatisticsSection, StatisticsTitle } from './Statistics.styled';
-
-const getRandomColor = () => {
-
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    
-    for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    
-    return color;
-};
+import { getRandomColor } from 'helpers/RandomColor/RandomColor';
 
 export const Statistics = ({ title, stats }) => {
     return (

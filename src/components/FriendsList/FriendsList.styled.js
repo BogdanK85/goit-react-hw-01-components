@@ -1,9 +1,9 @@
 import { styled } from "styled-components";
 
-export const online = 'online';
-export const offline = 'offline';
+// export const online = 'online';
+// export const offline = 'offline';
 
-export const FriendList = styled.ul`
+export const FriendListContainer = styled.ul`
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ export const FriendList = styled.ul`
     font-size: 20px
     gap: 20px;
 
-.online{
+/* .online{
     display: block;
     width: 17px;
     height: 17px;
@@ -33,21 +33,10 @@ export const FriendList = styled.ul`
     margin-top: 7px;
     margin-right: 20px;
     margin-left: 50px;
-    }
+    } */
 `
 
-export const FriendsListItem = styled.li`
-    width: 400px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    /* justify-content: space-evenly; */
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(227, 227, 227);
-    gap: 10px;
-    margin-bottom: 10px;
-    `
+
 
 export const FriendsListAvatar = styled.img`
     margin-right: 55px;
